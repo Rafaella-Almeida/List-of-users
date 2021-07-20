@@ -1,0 +1,36 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: rgba(248, 241, 210, 0.981);
+  /* background-color: rgba(216, 216, 216, 0.418); */
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 250px;
+  height: 35px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 3px 3px 3px #0d1117;
+}
+.button {
+  height: 35px;
+  width: 35px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 6px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px #0d1117;
+}
