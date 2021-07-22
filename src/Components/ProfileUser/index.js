@@ -11,20 +11,18 @@ const ProfileUser = (props) => {
         <img className="image-profile" src={image}></img>
 
         <div className="person-information">
-          <p>{name}</p>
-          <p>{bio}</p>
-          <p>seguidores: {followers}</p>
-          <p>repositorios: {repositories} </p>
+          <p className="paragrafos">{name}</p>
+          <p className="paragrafos">{bio}</p>
+          <p className="paragrafos">Seguidores: {followers}</p>
+          <p className="paragrafos">Repositorios: {repositories} </p>
         </div>
 
         <div className="container-buttons-git">
-          <button>
-            <a href={linkProfile}> ver perfil</a>
-          </button>
-          <button>
-            <a href={linkReposi}>ver respositórios</a>
+          <button className="button-perfil">
+            <a href={linkProfile}> Ver perfil no Github</a>
           </button>
         </div>
+        <div className="container-repository">{props.children}</div>
       </div>
     </div>
   );

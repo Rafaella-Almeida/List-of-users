@@ -1,4 +1,4 @@
-p {
+.paragrafos {
   margin-top: -4px;
   margin-bottom: 20px;
   margin-left: 193px;
@@ -37,21 +37,25 @@ img {
 }
 .container-buttons-git {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 button {
   height: 46px;
-  width: 106px;
-  margin-top: 60px;
+  width: 100px;
   margin-bottom: 10px;
   border: none;
   border-radius: 10px;
-  /* margin-left: 120px; */
+  margin-left: 120px;
   background-color: white;
   cursor: pointer;
   box-shadow: 3px 3px 3px #0d1117;
+}
+.container-repository {
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 /* @media (max-width: 278px) {
